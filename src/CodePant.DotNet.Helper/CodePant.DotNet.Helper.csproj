@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<PackageId>CodePant.DotNet.Helper</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>CodePant</Authors>
+		<Company>CodePant</Company>
+		<PackageDescription>This package is for helping in .Net Projects</PackageDescription>
+		<RepositoryUrl>https://github.com/codepant-codes/codepant-dot-net-helper</RepositoryUrl>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+</Project>

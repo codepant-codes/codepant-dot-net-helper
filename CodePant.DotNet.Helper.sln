@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodePant.DotNet.Helper", "src\CodePant.DotNet.Helper\CodePant.DotNet.Helper.csproj", "{AEDB2CC8-460D-4E5F-9C3B-5A608A8D24CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DF23FD35-40C6-4D18-84C5-A8C21D5239E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEDB2CC8-460D-4E5F-9C3B-5A608A8D24CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEDB2CC8-460D-4E5F-9C3B-5A608A8D24CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEDB2CC8-460D-4E5F-9C3B-5A608A8D24CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEDB2CC8-460D-4E5F-9C3B-5A608A8D24CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AEDB2CC8-460D-4E5F-9C3B-5A608A8D24CB} = {DF23FD35-40C6-4D18-84C5-A8C21D5239E2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {315EB34E-CFBC-49B5-BEA9-0286D2116665}
+	EndGlobalSection
+EndGlobal
