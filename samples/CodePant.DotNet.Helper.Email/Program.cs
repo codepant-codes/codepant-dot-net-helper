@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using CodePant.DotNet.Helper.Email.Options;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -16,9 +18,15 @@ namespace CodePant.DotNet.Helper.Email
             string toAddress = args[1];
             string subject = args[2];
             string body = args[3];
+            string attachmentPath = args[4];
+
+            for (int i = 0; i < args.ToList().Count; i++)
+            {
+                Console.WriteLine(args[i]);
+            }
 
             host.Services.GetService<IEmailHelper>()?
-                .SendEmail(fromAddress, toAddress, subject, body);
+                .SendEmail(fromAddress, toAddress, subject, body, new List<string> { attachmentPath });
 
             Console.WriteLine("Press any key to exit");
         }
