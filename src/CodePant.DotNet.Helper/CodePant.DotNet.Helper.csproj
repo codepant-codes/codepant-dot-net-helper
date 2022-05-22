@@ -7,7 +7,7 @@
 		<!--<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>-->
 		<PackageId>CodePant.DotNet.Helper</PackageId>
-		<Version>1.0.2</Version>
+		<Version>1.0.3-beta</Version>
 		<Authors>CodePant</Authors>
 		<Company>CodePant</Company>
 		<PackageDescription>This package is for helping in .Net Projects</PackageDescription>
