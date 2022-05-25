@@ -11,7 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BEEF19DC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{1D0437DC-BC88-4FBB-904C-EE238C8DFC50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodePant.DotNet.Helper.Email", "samples\CodePant.DotNet.Helper.Email\CodePant.DotNet.Helper.Email.csproj", "{D6D2019A-F690-4F78-80F8-742EB309FBE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodePant.DotNet.Helper.Email", "samples\CodePant.DotNet.Helper.Email\CodePant.DotNet.Helper.Email.csproj", "{D6D2019A-F690-4F78-80F8-742EB309FBE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodePant.DotNet.Helper.Test", "CodePant.DotNet.Helper.Test\CodePant.DotNet.Helper.Test.csproj", "{A1C59C9B-ECDA-407A-A287-A8EE1B649402}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{D6D2019A-F690-4F78-80F8-742EB309FBE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6D2019A-F690-4F78-80F8-742EB309FBE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6D2019A-F690-4F78-80F8-742EB309FBE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1C59C9B-ECDA-407A-A287-A8EE1B649402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1C59C9B-ECDA-407A-A287-A8EE1B649402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1C59C9B-ECDA-407A-A287-A8EE1B649402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1C59C9B-ECDA-407A-A287-A8EE1B649402}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{AEDB2CC8-460D-4E5F-9C3B-5A608A8D24CB} = {DF23FD35-40C6-4D18-84C5-A8C21D5239E2}
 		{D6D2019A-F690-4F78-80F8-742EB309FBE3} = {1D0437DC-BC88-4FBB-904C-EE238C8DFC50}
+		{A1C59C9B-ECDA-407A-A287-A8EE1B649402} = {BEEF19DC-028C-480B-B60B-4FD17F47E46D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {315EB34E-CFBC-49B5-BEA9-0286D2116665}
