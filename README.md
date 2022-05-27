@@ -1,4 +1,4 @@
-[![CodePantLogo](https://github.com/codepant-codes/codepant-dot-net-helper/blob/main/images/CodePantLogo.jpg?raw=true)](https://www.nuget.org/packages/CodePant.DotNet.Helper)
+<img src="https://raw.githubusercontent.com/codepant-codes/codepant-dot-net-helper/main/images/CodePantLogo.jpg" width="100" height="100" />
 
 # CodePant DotNet Helper
 [![Nuget](https://img.shields.io/nuget/v/CodePant.DotNet.Helper)](https://www.nuget.org/packages/CodePant.DotNet.Helper)
