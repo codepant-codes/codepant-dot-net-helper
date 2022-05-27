@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using CodePant.DotNet.Helper.Email.Options;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
@@ -36,9 +37,13 @@ namespace CodePant.DotNet.Helper.Email
             return Host.CreateDefaultBuilder(args)
                 .ConfigureServices((hostContext, services) =>
                 {
-                    services.Configure<SmtpOptions>(hostContext.Configuration.GetSection("SmtpConfiguration"));
-
-                    services.AddScoped<IEmailHelper, EmailHelper>();
+                    services.AddEmailHelperExtension(new SmtpOptions
+                    {
+                        Host = hostContext.Configuration.GetValue<string>("SmtpConfiguration:Host"),
+                        Password = hostContext.Configuration.GetValue<string>("SmtpConfiguration:Password"),
+                        Username = hostContext.Configuration.GetValue<string>("SmtpConfiguration:Username"),
+                        Port = hostContext.Configuration.GetValue<int>("SmtpConfiguration:Port")
+                    });
                 });
         }
     }

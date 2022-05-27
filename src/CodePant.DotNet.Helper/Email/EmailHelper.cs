@@ -12,16 +12,17 @@ namespace CodePant.DotNet.Helper.Email
         private readonly ILogger<EmailHelper> _logger;
         private SmtpOptions _smtpOptions;
 
-        public EmailHelper(IOptionsMonitor<SmtpOptions> options, ILogger<EmailHelper> logger)
+        public EmailHelper(SmtpOptions options, ILogger<EmailHelper> logger)
         {
             this._logger = logger;
-            this._smtpOptions = options.CurrentValue;
-            options.OnChange<SmtpOptions>(
-                (cfg) =>
-                {
-                    this._smtpOptions = cfg;
-                }
-            );
+            this._smtpOptions = options;
+            //this._smtpOptions = options.CurrentValue;
+            //options.OnChange<SmtpOptions>(
+            //    (cfg) =>
+            //    {
+            //        this._smtpOptions = cfg;
+            //    }
+            //);
         }
 
         /// <summary>

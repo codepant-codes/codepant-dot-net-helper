@@ -1,3 +1,5 @@
+[![CodePantLogo](./images/CodePantLogo.jpg)](https://www.nuget.org/packages/CodePant.DotNet.Helper)
+
 # CodePant DotNet Helper
 [![Nuget](https://img.shields.io/nuget/v/CodePant.DotNet.Helper)](https://www.nuget.org/packages/CodePant.DotNet.Helper)
 [![Nuget](https://img.shields.io/nuget/vpre/CodePant.DotNet.Helper)](https://www.nuget.org/packages/CodePant.DotNet.Helper)

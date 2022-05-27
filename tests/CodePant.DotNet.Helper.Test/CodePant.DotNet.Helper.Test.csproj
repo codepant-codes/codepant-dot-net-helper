@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\CodePant.DotNet.Helper\CodePant.DotNet.Helper.csproj" />
+    <ProjectReference Include="..\..\src\CodePant.DotNet.Helper\CodePant.DotNet.Helper.csproj" />
   </ItemGroup>
 
 </Project>
