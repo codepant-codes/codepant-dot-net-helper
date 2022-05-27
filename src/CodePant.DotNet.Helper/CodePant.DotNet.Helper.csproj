@@ -12,7 +12,7 @@
 		<Company>CodePant</Company>
 		<PackageDescription>This package is for helping in .Net Projects</PackageDescription>
 		<RepositoryUrl>https://github.com/codepant-codes/codepant-dot-net-helper</RepositoryUrl>
-		<PackageReadmeFile>docs\README.md</PackageReadmeFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageIcon>images\CodePantLogo.jpg</PackageIcon>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	</PropertyGroup>
@@ -24,7 +24,7 @@
 		<None Include="..\..\images\CodePantLogo.jpg" Pack="true" Visible="false" PackagePath="images\CodePantLogo.jpg" />
 	</ItemGroup>
 	<ItemGroup>
-		<None Include="..\..\README.md" Pack="true" PackagePath="docs\README.md"/>
+		<None Include="..\..\README.md" Pack="true" PackagePath="/"/>
 	</ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1" />
