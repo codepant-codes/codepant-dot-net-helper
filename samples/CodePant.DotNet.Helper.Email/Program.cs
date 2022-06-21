@@ -13,7 +13,7 @@ namespace CodePant.DotNet.Helper.Email
         public static void Main(string[] args)
         {
             Console.WriteLine(typeof(Program));
-            var host = CreateHostBuilder(args).Build();
+            IHost? host = CreateHostBuilder(args).Build();
 
             string fromAddress = args[0];
             string toAddress = args[1];

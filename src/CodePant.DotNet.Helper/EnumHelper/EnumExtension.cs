@@ -7,10 +7,9 @@ namespace CodePant.DotNet.Helper.EnumHelper
 {
     public static class EnumExtension
     {
-
         /// <summary>
-        /// Provides Description Attribute Value from Enum
-        ///  <seealso href="https://codereview.stackexchange.com/a/157981">Code Answer From t3chb0t</seealso>
+        ///     Provides Description Attribute Value from Enum
+        ///     <seealso href="https://codereview.stackexchange.com/a/157981">Code Answer From t3chb0t</seealso>
         /// </summary>
         /// <param name="value"></param>
         /// <returns></returns>

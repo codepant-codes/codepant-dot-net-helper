@@ -11,9 +11,11 @@ namespace CodePant.DotNet.Helper.Email
         {
             _ = services.AddScoped<IEmailHelper, EmailHelper>(
                 provider => new EmailHelper(
-                    smtpOptions, provider.GetService<ILogger<EmailHelper>>() ?? throw new ArgumentNullException(nameof(ILogger<EmailHelper>), "Parameter is null")
-                    )
-                );
+                    smtpOptions,
+                    provider.GetService<ILogger<EmailHelper>>() ??
+                    throw new ArgumentNullException(nameof(ILogger<EmailHelper>), "Parameter is null")
+                )
+            );
         }
     }
 }
