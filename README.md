@@ -1,5 +1,3 @@
-<img src="https://raw.githubusercontent.com/codepant-codes/codepant-dot-net-helper/main/images/CodePantLogo.jpg" width="100" height="100" />
-
 # CodePant DotNet Helper
 [![Nuget](https://img.shields.io/nuget/v/CodePant.DotNet.Helper)](https://www.nuget.org/packages/CodePant.DotNet.Helper)
 [![Nuget](https://img.shields.io/nuget/vpre/CodePant.DotNet.Helper)](https://www.nuget.org/packages/CodePant.DotNet.Helper)
@@ -33,4 +31,4 @@ PM> Install-Package CodePant.DotNet.Helper
 ## Samples
 
 - [CodePant.DotNet.Helper.Email](https://github.com/codepant-codes/codepant-dot-net-helper/tree/main/samples/CodePant.DotNet.Helper.Email)
-
+- [CodePant.DotNet.Helper.ReCaptchaV2](https://github.com/codepant-codes/codepant-dot-net-helper/tree/main/samples/CodePant.DotNet.Helper.ReCaptchaV2)

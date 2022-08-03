@@ -18,7 +18,9 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Folder Include="FTP\" />
+	  <Compile Remove="FTP\**" />
+	  <EmbeddedResource Remove="FTP\**" />
+	  <None Remove="FTP\**" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\..\images\CodePantLogo.jpg" Pack="true" Visible="false" PackagePath="images\CodePantLogo.jpg" />
@@ -30,6 +32,7 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1" />
 		<PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
 	</ItemGroup>
 
