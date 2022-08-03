@@ -1,6 +1,5 @@
 # CodePant DotNet Helper
 [![Nuget](https://img.shields.io/nuget/v/CodePant.DotNet.Helper)](https://www.nuget.org/packages/CodePant.DotNet.Helper)
-[![Nuget](https://img.shields.io/nuget/vpre/CodePant.DotNet.Helper)](https://www.nuget.org/packages/CodePant.DotNet.Helper)
 [![Nuget](https://img.shields.io/nuget/dt/CodePant.DotNet.Helper)](https://www.nuget.org/packages/CodePant.DotNet.Helper)
 [![GitHub issues](https://img.shields.io/github/issues/codepant-codes/codepant-dot-net-helper)](https://github.com/codepant-codes/codepant-dot-net-helper/issues)
 [![GitHub closed issues](https://img.shields.io/github/issues-closed/codepant-codes/codepant-dot-net-helper)](https://github.com/codepant-codes/codepant-dot-net-helper/issues?q=is%3Aissue+is%3Aclosed)
