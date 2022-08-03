@@ -7,7 +7,7 @@
 		<!--<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>-->
 		<PackageId>CodePant.DotNet.Helper</PackageId>
-		<Version>1.0.7</Version>
+		<Version>1.1.0</Version>
 		<Authors>CodePant</Authors>
 		<Company>CodePant</Company>
 		<PackageDescription>This package is for helping in .Net Projects</PackageDescription>
@@ -18,9 +18,9 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <Compile Remove="FTP\**" />
-	  <EmbeddedResource Remove="FTP\**" />
-	  <None Remove="FTP\**" />
+		<Compile Remove="FTP\**" />
+		<EmbeddedResource Remove="FTP\**" />
+		<None Remove="FTP\**" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\..\images\CodePantLogo.jpg" Pack="true" Visible="false" PackagePath="images\CodePantLogo.jpg" />
